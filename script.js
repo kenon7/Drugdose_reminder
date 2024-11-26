@@ -8,7 +8,7 @@ medicationForm.addEventListener('submit', (event) => {
 
   const medicationName = document.getElementById('medicationName').value;
   const dosage = document.getElementById('dosage').value;
-  const 1  frequency = document.getElementById('frequency').value;
+  const frequency = document.getElementById('frequency').value;
   const reminderTime = document.getElementById('reminderTime').value;
 
   // Store medication data locally (e.g., in browser storage)
